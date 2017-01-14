@@ -164,11 +164,11 @@ def generate_power(number):
 
     - Call the outer function: `generate_power(2)`
     - Build the `nth_power()` function which takes a single argument `power`
-    - Take a snapshot of the state of `nth_power()` which includes `power=2`
+    - Take a snapshot of the state of `nth_power()` which includes `number=2`
     - Pass that snapshot into the `generate_power()` function
     - Return the `nth_power()` function
 
-    Put another way, the closure functions to "initialize" the number bar in the `nth_power()` function and then returns it. Now, whenever you call that newly returned function, it will always see its own private snapshot that includes `power=2`.
+    Put another way, the closure functions to "initialize" the number bar in the `nth_power()` function and then returns it. Now, whenever you call that newly returned function, it will always see its own private snapshot that includes `number=2`.
 
 ### Real World
 
